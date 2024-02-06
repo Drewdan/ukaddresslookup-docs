@@ -2,9 +2,7 @@ site_name: UK Address Lookup Documentation
 theme:
   name: material
   features:
-#    - navigation.tabs
     - navigation.sections
-    - toc.integrate
     - search.suggest
     - search.highlight
     - content.tabs.link
@@ -38,6 +36,7 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.mark
   - attr_list
+  - md_in_html
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
