@@ -1,4 +1,4 @@
-# API Usage
+# Rest API Documentation
 
 ## Authentication with the API
 
